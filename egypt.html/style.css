@@ -24,8 +24,9 @@ h1 {
 
 .card:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 20px #ffc107;
+  transition: all 0.3s ease-in-out;
 }
+
 
 .card img {
   height: 600px;
